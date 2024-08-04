@@ -1,0 +1,361 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+
+}
+
+/* Navigation bar */
+#header{
+    background-color: rgb(232, 234, 236);
+    line-height: 80px;
+    display: Flex;
+    max-width: 100%;
+    }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+        margin-left: 15px;
+        color: black;
+    }
+    a:hover{
+        color: rgb(152, 67, 209);
+    }
+.callme{
+    background-color: rgb(152, 67, 209);
+    padding: 10px 20px;
+    border: 1px transparent;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+    }
+
+/* Head */
+#head{
+    background: url(./4.jpg);
+    position: relative;
+}
+.head-row1{    
+    max-width: 50%;
+    padding: 80px 0px 20px 0px;
+    margin: 80px 0px 80px 150px;
+    position: relative;
+    font-size: 90px;
+    letter-spacing: 0.02em;
+}
+.head-row2{
+    margin: 20px 0px 20px 150px;
+    max-width: 30%;
+    position: relative;
+    line-height:30px;
+    font-size: 24px;
+}
+#Learnmore{
+    margin: 20px 0px 100px 150px;
+    position: relative;
+    background-color: rgb(152, 67, 209);
+    padding: 10px 20px;
+    border: 1px transparent;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+    
+}
+
+/* Services */
+#Services{
+    position: relative;
+    margin: 130px 0px 130px 50px; 
+}
+.services-row1{
+    color: rgb(152,67,209);
+    margin-bottom: 80px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.services-row2{
+    margin-bottom: 80px;
+    position: relative;
+    text-align: center;
+    font-size: 36px;
+}
+.services-row3{
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    display: flex;
+    font-size: 16px;
+}
+#S1{
+    margin-bottom: 30px;
+}
+img{
+    width: 30%;
+}
+/* Statistics */
+#Statistics{
+    min-width: 100%;
+    padding: 100px 0px 100px 0px;
+    text-align: center;
+    color: white;
+    background-color: rgb(26, 43, 99);  
+}
+.Statistics-row1{
+    margin-bottom: 80px;
+    color: white;
+    font-size: 26px;
+}
+.Statistics-row2{
+    color: white;
+}
+#Block{
+    margin: 30px;
+    display: flex;
+}
+.B1{
+    font-size: 80px;
+}
+.B2{
+    font-size: 18px;
+}
+
+/* About */
+#About{
+    display: flex;
+
+}
+#About1{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    max-width: 30%;
+    font-size: 20px;
+}
+#About2{
+    background: url(./background.jpg);
+    margin: 0px;
+    min-width: 50%;
+    
+}
+.about-row1{
+    color: rgb(152,67,209);
+    text-align: left;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.about-row2{
+    margin-top: 30px;
+    text-align: left;
+    font-size: 36px;
+    font-weight: 900;
+}
+.about-row3{
+    color: gray;
+    margin-top: 30px;
+    text-align: left;
+
+}
+
+
+
+/* Slider */
+#slider{
+    margin: 0px 0px 0px 0px;
+    padding: 50px;
+    background-color: rgb(152, 67, 209);
+    color: white;
+    text-align: center;
+}
+.slider-row1{
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+.slider-row2{
+    font-size: 42px;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+.slider-row3{
+    padding-top: 30px;
+    font-size: 20px;
+}
+.slider-row4{
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+
+/* Client */
+#Client{
+    margin-top: 5px;
+}
+.Client{
+    background-color: rgb(235, 215, 250);
+    padding: 30px;
+}
+.ourhappyclient{
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.Logos{
+    text-align: center;
+    background-color: rgb(235, 215, 250);
+    margin-top: 2px;
+    display: flex;
+    overflow: scroll;
+    padding: 50px;
+}
+.bar121{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.hunter{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.locographix{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.middreams{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.davejones{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+/* Contact */
+#contact{
+    position: relative;
+    display: flex;
+    overflow: scroll;
+}
+/* Detail */
+.Contact-Detail{
+    margin: 80px;
+    position: relative;
+    min-width: 45%;
+    font-size: 20px;
+}
+
+.Contact{
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: rgb(152, 67, 209);
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.Work-Together{
+    margin-bottom: 30px;
+    font-size: 38px;
+}
+
+.Address{    
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+#Icons{
+    font-size: 30px;
+}
+
+/* Form */
+.Contact-Form{
+    width: 50%;
+}
+Form{
+}
+input{
+    
+}
+#col{
+    display: flex;
+    position: relative;
+    left: -22px;
+}
+#col1{
+    width: 40%;
+    margin-right: 10px;
+}
+#col2{
+    width: 50%;
+
+}
+#FN{
+
+}
+#FirstName{
+
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    overflow: hidden;
+}
+#LN{
+
+}
+#LastName{
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    overflow: hidden;
+}
+#EM{
+    margin-top:30px;
+}
+#Email{
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+#MS{
+
+}
+#Message{
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+#Submit{
+    background-color: rgb(152, 67, 209);
+    padding: 10px 20px;
+    border: 1px transparent;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+/* Map */
+#Map{
+    
+}
+iframe{
+    display: flex;
+    width: 100%;
+}
+
+/* Footer */
+#footer{
+    /* border: 1px solid black; */
+    background-color: white;
+    position: relative;
+    line-height: 60px;
+    text-align: center;
+    color: gray;
+    width: 100%;
+    bottom: 0px ;
+}
